@@ -245,6 +245,11 @@ rules:
     - severity: warning
   # Part of google's style guide
   number-leading-zero: never
+  # No unknown units
+  unit-no-unknown:
+    - true
+    - ignoreUnits:
+        - fr
 
   # We use Harry Roberts' BEM dialect as our preferred way to format classes.
   # See: http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
